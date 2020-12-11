@@ -1,0 +1,3 @@
+C:/Users/sinas/OneDrive/Desktop/university/projects/workshop/character manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir
+C:/Users/sinas/OneDrive/Desktop/university/projects/workshop/character manipulator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sinas/OneDrive/Desktop/university/projects/workshop/character manipulator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

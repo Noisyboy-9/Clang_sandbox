@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="random" targetName="random" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93be4cb2-5d25-4118-bd45-f3178a03a85c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_with_errors/.idea/calculator with errors.iml" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_with_errors/.idea/calculator with errors.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_with_errors/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_with_errors/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_with_errors/calculator_with_error.c" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_with_errors/calculator_with_error.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/.idea/character manipulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/.idea/character manipulator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/character_manipulator.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/character_manipulator.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/character_manipulator.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/character_manipulator/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/random/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/random/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/random/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/.idea/random.iml" beforeDir="false" afterPath="$PROJECT_DIR$/random/.idea/random.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/random/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/CMakeFiles/random.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/random.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/cmake-build-debug/random.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/.idea/time_converter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/.idea/time_converter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/CMakeFiles/time_converter.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_converter/cmake-build-debug/time_converter.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/time_converter/cmake-build-debug/time_converter.cbp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l9HxY6Xzum9sXTcUkypMnFkGLZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="random" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="random" TARGET_NAME="random" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="random" RUN_TARGET_NAME="random">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\sinas\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93be4cb2-5d25-4118-bd45-f3178a03a85c" name="Default Changelist" comment="" />
+      <created>1607002646235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607002646235</updated>
+      <workItem from="1607002650465" duration="266000" />
+      <workItem from="1607101800321" duration="667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="205" key="FileChooserDialogImpl" timestamp="1607002716865">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="580" y="205" key="FileChooserDialogImpl/1600.124.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1607002716865" />
+    <state x="301" y="48" width="998" height="774" key="SettingsEditor" timestamp="1607102474796">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="301" y="48" width="998" height="774" key="SettingsEditor/1600.124.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1607102474796" />
+  </component>
+</project>
