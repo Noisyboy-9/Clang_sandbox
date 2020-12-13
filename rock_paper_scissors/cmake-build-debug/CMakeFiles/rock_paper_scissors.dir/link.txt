@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/rock_paper_scissors.dir/main.c.o -o rock_paper_scissors 

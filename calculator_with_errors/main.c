@@ -5,11 +5,10 @@
 
 int main() {
     double number1, number2, result;
-    char operator;
+    char operator, sign;
 
-    printf("Choose operation to perform (+, -, *, /, %%, sin, cos, tan, :");
+    printf("Choose operation to perform (+, -, *, /, %%, sin, cos, tan):");
     scanf("%c", &operator);
-
 
     printf("Enter first number:");
     scanf("%lf", &number1);

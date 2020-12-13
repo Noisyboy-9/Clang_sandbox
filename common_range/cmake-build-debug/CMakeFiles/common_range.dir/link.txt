@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/common_range.dir/main.c.o -o common_range 
