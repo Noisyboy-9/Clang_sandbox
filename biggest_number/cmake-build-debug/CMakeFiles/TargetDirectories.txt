@@ -1,0 +1,3 @@
+/home/noisyboy/university/workshop/biggest_number/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/noisyboy/university/workshop/biggest_number/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/noisyboy/university/workshop/biggest_number/cmake-build-debug/CMakeFiles/biggest_number.dir
