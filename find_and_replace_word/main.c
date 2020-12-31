@@ -8,42 +8,42 @@
 char *find_and_replace_word(const char *string, const char *find, const char *replace)
 {
     char *result;
-    int i, count = 0;
+    int iterator, occurence_count = 0;
     int new_word_length = strlen(replace);
     int old_word_length = strlen(find);
 
     // Counting the number of times old word occur in the string for the allocation size determination
-    for (i = 0; string[i] != '\0'; i++)
+    for (iterator = 0; string[iterator] != '\0'; iterator++)
     {
-        if (strstr(&string[i], find) == &string[i])
+        if (strstr(&string[iterator], find) == &string[iterator])
         {
-            count++;
+            occurence_count++;
 
             // Jumping to index after the old word.
-            i += old_word_length - 1;
+            iterator += old_word_length - 1;
         }
     }
 
     // Making new string with enough length
-    int allocation_size = i + count * (new_word_length - old_word_length) + 1;
+    int allocation_size = iterator + occurence_count * (new_word_length - old_word_length) + 1;
     result = (char *)malloc(allocation_size);
 
-    i = 0;
+    iterator = 0;
     while (*string)
     {
         if (strstr(string, find) == string)
         {
-            strcpy(&result[i], replace);
-            i += new_word_length;
+            strcpy(&result[iterator], replace);
+            iterator += new_word_length;
             string += old_word_length;
         }
         else
         {
-            result[i++] = *string++;
+            result[iterator++] = *string++;
         }
     }
 
-    result[i] = '\0';
+    result[iterator] = '\0';
     return result;
 }
 
