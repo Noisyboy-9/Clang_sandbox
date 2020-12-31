@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/pattern_print.dir/main.c.o -o pattern_print 
