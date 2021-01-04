@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/noisyboy/university/sandbox/build",
+  "command": "/bin/clang-10   -g -std=gnu99 -o CMakeFiles/sandbox.dir/main.c.o -c /home/noisyboy/university/sandbox/main.c",
+  "file": "/home/noisyboy/university/sandbox/main.c"
+}
+]

@@ -40,3 +40,4 @@ int string_compare(const char *string1, const char *string2)
 
     return 0;
 }
+
