@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/student_oop.dir/main.c.o -o student_oop 
+/usr/bin/cc -g CMakeFiles/student_oop.dir/main.c.o CMakeFiles/student_oop.dir/Student/student.c.o -o student_oop 

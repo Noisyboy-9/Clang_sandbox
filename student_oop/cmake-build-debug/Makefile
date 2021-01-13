@@ -142,6 +142,33 @@ student_oop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_oop.dir/build.make CMakeFiles/student_oop.dir/build
 .PHONY : student_oop/fast
 
+Student/student.o: Student/student.c.o
+
+.PHONY : Student/student.o
+
+# target to build an object file
+Student/student.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_oop.dir/build.make CMakeFiles/student_oop.dir/Student/student.c.o
+.PHONY : Student/student.c.o
+
+Student/student.i: Student/student.c.i
+
+.PHONY : Student/student.i
+
+# target to preprocess a source file
+Student/student.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_oop.dir/build.make CMakeFiles/student_oop.dir/Student/student.c.i
+.PHONY : Student/student.c.i
+
+Student/student.s: Student/student.c.s
+
+.PHONY : Student/student.s
+
+# target to generate assembly for a file
+Student/student.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_oop.dir/build.make CMakeFiles/student_oop.dir/Student/student.c.s
+.PHONY : Student/student.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... student_oop"
+	@echo "... Student/student.o"
+	@echo "... Student/student.i"
+	@echo "... Student/student.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

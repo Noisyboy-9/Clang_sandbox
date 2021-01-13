@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/noisyboy/university/workshop/student_oop/Student/student.c">
+			<Option target="student_oop"/>
+		</Unit>
+		<Unit filename="/home/noisyboy/university/workshop/student_oop/Student/student.h">
+			<Option target="student_oop"/>
+		</Unit>
 		<Unit filename="/home/noisyboy/university/workshop/student_oop/main.c">
 			<Option target="student_oop"/>
 		</Unit>
