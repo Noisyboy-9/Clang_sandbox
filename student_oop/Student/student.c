@@ -6,6 +6,12 @@
 
 Student *last_student(Student *head);
 
+Student *delete_from_beginning(Student *head);
+
+void delete_from_end(Student *head);
+
+void delete_from_middle(Student *head, char *email);
+
 Student *handle_add_student(Student *head) {
     printf("please input student name: ");
     char name[MAX_STUDENT_NAME_LENGTH];
@@ -128,30 +134,39 @@ Student *handle_delete_student(Student *head) {
     sanitize_input_string(email);
 
     if (strcmp(email, head->email) == 0) {
-//        we have to delete first node
-        Student *delete_target = head;
-        Student *new_head = head->next;
-        delete_target->next = NULL;
-        free(delete_target);
-        return new_head;
+        return delete_from_beginning(head);
     }
 
     if (strcmp(email, last_student(head)->email) == 0) {
-//        we have to delete a node from the end
-        Student *delete_target = last_student(head);
-        Student *before = find_before_node(delete_target, head);
-        before->next = NULL;
-        free(delete_target);
+        delete_from_end(head);
         return head;
     }
 
-//    we have to delete from the middle
+    delete_from_middle(head, email);
+    return head;
+}
+
+void delete_from_middle(Student *head, char *email) {
     Student *delete_target = find_student(head, email);
     Student *before = find_before_node(delete_target, head);
     before->next = delete_target->next;
     delete_target->next = NULL;
     free(delete_target);
-    return head;
+}
+
+void delete_from_end(Student *head) {
+    Student *delete_target = last_student(head);
+    Student *before = find_before_node(delete_target, head);
+    before->next = NULL;
+    free(delete_target);
+}
+
+Student *delete_from_beginning(Student *head) {
+    Student *delete_target = head;
+    Student *new_head = head->next;
+    delete_target->next = NULL;
+    free(delete_target);
+    return new_head;
 }
 
 Student *find_before_node(Student *node, Student *head) {
