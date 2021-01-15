@@ -25,7 +25,7 @@ Student *handle_add_student(Student *head);
 
 Student *find_tale(Student *head);
 
-bool student_exists(Student *head, char email[150]);
+Student *find_student(Student *head, char *email);
 
 void sanitize_input_string(char *name);
 
@@ -34,5 +34,9 @@ int get_user_order();
 bool is_valid_order(int order);
 
 void show_menu();
+
+Student *handle_delete_student(Student *head);
+
+Student *find_before_node(Student *node, Student *head);
 
 #endif //STUDENT_OOP_STUDENT_H
