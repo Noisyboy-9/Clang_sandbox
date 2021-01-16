@@ -115,6 +115,7 @@ int get_user_order() {
 bool is_valid_order(int order) {
     return order == ORDER_ADD ||
            order == ORDER_DELETE ||
+           order == ORDER_PRINT_STUDENTS ||
            order == ORDER_SORT ||
            order == ORDER_CANCEL;
 }
