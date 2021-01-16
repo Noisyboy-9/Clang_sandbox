@@ -39,4 +39,6 @@ Student *handle_delete_student(Student *head);
 
 Student *find_before_node(Student *node, Student *head);
 
+void handle_print_students(Student *head);
+
 #endif //STUDENT_OOP_STUDENT_H

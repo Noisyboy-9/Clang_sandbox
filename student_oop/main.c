@@ -5,7 +5,9 @@
 
 void program_loop();
 
-void handle_print_students(Student *head);
+void handle_sort_by_name(Student *head);
+
+void linked_list_swap(Student *first_node, Student *second_node);
 
 int main() {
     program_loop();
@@ -30,7 +32,10 @@ void program_loop() {
             case ORDER_PRINT_STUDENTS:
                 handle_print_students(head);
                 break;
-
+            case ORDER_SORT:
+//                this is the star mark part
+                handle_sort_by_name(head);
+                break;
             default:
                 choice = ORDER_CANCEL;
                 break;
@@ -42,23 +47,43 @@ void program_loop() {
     printf("goodbye :)");
 }
 
-void handle_print_students(Student *head) {
-    if (!head) {
-        printf("No students have been registered!");
-        return;
+void handle_sort_by_name(Student *head) {
+//    implementing bubble sort for linked list items
+    Student *current_student;
+    Student *next_student;
+    for (current_student = head; current_student != NULL; current_student = current_student->next) {
+        for (next_student = current_student->next; next_student != NULL; next_student = next_student->next) {
+            if (strcmp(current_student->name, next_student->name) > 0) {
+                linked_list_swap(current_student, next_student);
+            }
+        }
     }
+}
 
-    Student *iteration_node = head;
-    while (iteration_node) {
-        printf("-------------------\n");
-        printf("id: %d\n", iteration_node->id);
-        printf("name : %s\n", iteration_node->name);
-        printf("email : %s\n", iteration_node->email);
-        printf("password: %s\n", iteration_node->password);
-        printf("-------------------\n");
+void linked_list_swap(Student *first_node, Student *second_node) {
+//    making a backup of first_node data
+    int temp_id = first_node->id;
 
-        iteration_node = iteration_node->next;
-    }
+    char temp_name[MAX_STUDENT_NAME_LENGTH];
+    strcpy(temp_name, first_node->name);
+
+    char temp_email[MAX_STUDENT_EMAIL_LENGTH];
+    strcpy(temp_email, first_node->email);
+
+    char temp_password[MAX_STUDENT_PASSWORD_LENGTH];
+    strcpy(temp_password, first_node->password);
+
+//    changing the values
+    first_node->id = second_node->id;
+    strcpy(first_node->name, second_node->name);
+    strcpy(first_node->email, second_node->email);
+    strcpy(first_node->password, second_node->password);
+
+//    setting seconds node to have first node data
+    second_node->id = temp_id;
+    strcpy(second_node->name, temp_name);
+    strcpy(second_node->email, temp_email);
+    strcpy(second_node->password, temp_password);
 }
 
 

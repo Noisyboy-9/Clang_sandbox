@@ -12,6 +12,7 @@ void delete_from_end(Student *head);
 
 void delete_from_middle(Student *head, char *email);
 
+
 Student *handle_add_student(Student *head) {
     printf("please input student name: ");
     char name[MAX_STUDENT_NAME_LENGTH];
@@ -184,4 +185,23 @@ Student *last_student(Student *head) {
         iteration_node = iteration_node->next;
     }
     return iteration_node;
+}
+
+void handle_print_students(Student *head) {
+    if (!head) {
+        printf("No students have been registered!");
+        return;
+    }
+
+    Student *iteration_node = head;
+    while (iteration_node) {
+        printf("-------------------\n");
+        printf("id: %d\n", iteration_node->id);
+        printf("name : %s\n", iteration_node->name);
+        printf("email : %s\n", iteration_node->email);
+        printf("password: %s\n", iteration_node->password);
+        printf("-------------------\n");
+
+        iteration_node = iteration_node->next;
+    }
 }
