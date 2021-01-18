@@ -41,4 +41,7 @@ Student *find_before_node(Student *node, Student *head);
 
 void handle_print_students(Student *head);
 
+void handle_sort_by_name(Student *head);
+
+
 #endif //STUDENT_OOP_STUDENT_H
