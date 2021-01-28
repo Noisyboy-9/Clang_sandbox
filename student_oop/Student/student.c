@@ -4,6 +4,16 @@
 #include <stdio.h>
 #include "student.h"
 
+Student *last_student(Student *head);
+
+Student *delete_from_beginning(Student *head);
+
+void delete_from_end(Student *head);
+
+void delete_from_middle(Student *head, char *email);
+
+void linked_list_swap(Student *first_node, Student *second_node);
+
 Student *handle_add_student(Student *head) {
     printf("please input student name: ");
     char name[MAX_STUDENT_NAME_LENGTH];
@@ -14,8 +24,9 @@ Student *handle_add_student(Student *head) {
     char email[MAX_STUDENT_EMAIL_LENGTH];
     fgets(email, MAX_STUDENT_EMAIL_LENGTH, stdin);
     sanitize_input_string(email);
-    if (student_exists(head, email)) {
-        printf("student with specified email already exist!");
+
+    if (find_student(head, email)) {
+        printf("student with specified email already exist!\n");
         return head;
     }
 
@@ -64,22 +75,23 @@ Student *find_tale(Student *head) {
     return current;
 }
 
-bool student_exists(Student *head, char email[150]) {
+Student *find_student(Student *head, char *email) {
     if (!head) {
-//        no student has been created to the point
-        return false;
+//        no student exist
+        return NULL;
     }
 
-    Student *current = head;
-    while (current) {
-        if (!strcmp(current->email, email)) {
-            return true;
+    Student *iteration_node = head;
+    while (iteration_node) {
+        if (strcmp(iteration_node->email, email) == 0) {
+            return iteration_node;
         }
-        current = current->next;
+
+        iteration_node = iteration_node->next;
     }
 
-    return false;
-    return 0;
+//    nothing has been found
+    return NULL;
 }
 
 void sanitize_input_string(char *name) {
@@ -105,6 +117,7 @@ int get_user_order() {
 bool is_valid_order(int order) {
     return order == ORDER_ADD ||
            order == ORDER_DELETE ||
+           order == ORDER_PRINT_STUDENTS ||
            order == ORDER_SORT ||
            order == ORDER_CANCEL;
 }
@@ -115,4 +128,120 @@ void show_menu() {
     printf("%d) sort students by name\n", ORDER_SORT);
     printf("%d) print students\n", ORDER_PRINT_STUDENTS);
     printf("%d) cancel\n", ORDER_CANCEL);
+}
+
+Student *handle_delete_student(Student *head) {
+    printf("please enter student email : ");
+    char email[MAX_STUDENT_EMAIL_LENGTH];
+    fgets(email, MAX_STUDENT_EMAIL_LENGTH, stdin);
+    sanitize_input_string(email);
+
+    if (strcmp(email, head->email) == 0) {
+        return delete_from_beginning(head);
+    }
+
+    if (strcmp(email, last_student(head)->email) == 0) {
+        delete_from_end(head);
+        return head;
+    }
+
+    delete_from_middle(head, email);
+    return head;
+}
+
+void delete_from_middle(Student *head, char *email) {
+    Student *delete_target = find_student(head, email);
+    Student *before = find_before_node(delete_target, head);
+    before->next = delete_target->next;
+    delete_target->next = NULL;
+    free(delete_target);
+}
+
+void delete_from_end(Student *head) {
+    Student *delete_target = last_student(head);
+    Student *before = find_before_node(delete_target, head);
+    before->next = NULL;
+    free(delete_target);
+}
+
+Student *delete_from_beginning(Student *head) {
+    Student *delete_target = head;
+    Student *new_head = head->next;
+    delete_target->next = NULL;
+    free(delete_target);
+    return new_head;
+}
+
+Student *find_before_node(Student *node, Student *head) {
+    Student *before_node = head;
+    while (before_node->next != node) {
+        before_node = before_node->next;
+    }
+    return before_node;
+}
+
+Student *last_student(Student *head) {
+    Student *iteration_node = head;
+    while (iteration_node && iteration_node->next) {
+        iteration_node = iteration_node->next;
+    }
+    return iteration_node;
+}
+
+void handle_print_students(Student *head) {
+    if (!head) {
+        printf("No students have been registered!");
+        return;
+    }
+
+    Student *iteration_node = head;
+    while (iteration_node) {
+        printf("-------------------\n");
+        printf("id: %d\n", iteration_node->id);
+        printf("name : %s\n", iteration_node->name);
+        printf("email : %s\n", iteration_node->email);
+        printf("password: %s\n", iteration_node->password);
+        printf("-------------------\n");
+
+        iteration_node = iteration_node->next;
+    }
+}
+
+void handle_sort_by_name(Student *head) {
+//    implementing bubble sort for linked list items
+    Student *current_student;
+    Student *next_student;
+    for (current_student = head; current_student != NULL; current_student = current_student->next) {
+        for (next_student = current_student->next; next_student != NULL; next_student = next_student->next) {
+            if (strcmp(current_student->name, next_student->name) > 0) {
+                linked_list_swap(current_student, next_student);
+            }
+        }
+    }
+}
+
+void linked_list_swap(Student *first_node, Student *second_node) {
+//    making a backup of first_node data
+    int temp_id = first_node->id;
+
+    char temp_name[MAX_STUDENT_NAME_LENGTH];
+    strcpy(temp_name, first_node->name);
+
+    char temp_email[MAX_STUDENT_EMAIL_LENGTH];
+    strcpy(temp_email, first_node->email);
+
+    char temp_password[MAX_STUDENT_PASSWORD_LENGTH];
+    strcpy(temp_password, first_node->password);
+
+//    changing the values
+    first_node->id = second_node->id;
+    strcpy(first_node->name, second_node->name);
+    strcpy(first_node->email, second_node->email);
+    strcpy(first_node->password, second_node->password);
+
+//    setting seconds node to have first node data
+    second_node->id = temp_id;
+    strcpy(second_node->name, temp_name);
+    strcpy(second_node->email, temp_email);
+    strcpy(second_node->password, temp_password);
 }

@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/noisyboy/university/workshop/student_oop/main.c
-stdio.h
--
-stdlib.h
+/home/noisyboy/university/workshop/student_oop/Student/student.c
+stdbool.h
 -
 string.h
 -
-stdbool.h
+stdlib.h
 -
+stdio.h
+-
+student.h
+/home/noisyboy/university/workshop/student_oop/Student/student.h
+
+/home/noisyboy/university/workshop/student_oop/Student/student.h
 
